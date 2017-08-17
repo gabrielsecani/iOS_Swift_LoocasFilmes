@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC8116DB1F46535E005CFBBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8116DA1F46535E005CFBBB /* AppDelegate.swift */; };
+		AC8116DD1F46535E005CFBBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8116DC1F46535E005CFBBB /* ViewController.swift */; };
+		AC8116E01F46535E005CFBBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC8116DE1F46535E005CFBBB /* Main.storyboard */; };
+		AC8116E21F46535E005CFBBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8116E11F46535E005CFBBB /* Assets.xcassets */; };
+		AC8116E51F46535E005CFBBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC8116E31F46535E005CFBBB /* LaunchScreen.storyboard */; };
+		AC8116F01F46535E005CFBBB /* locasfilmesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8116EF1F46535E005CFBBB /* locasfilmesTests.swift */; };
+		AC8116FB1F46535E005CFBBB /* locasfilmesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8116FA1F46535E005CFBBB /* locasfilmesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC8116EC1F46535E005CFBBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC8116CF1F46535E005CFBBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC8116D61F46535E005CFBBB;
+			remoteInfo = locasfilmes;
+		};
+		AC8116F71F46535E005CFBBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC8116CF1F46535E005CFBBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC8116D61F46535E005CFBBB;
+			remoteInfo = locasfilmes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC8116D71F46535E005CFBBB /* locasfilmes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = locasfilmes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8116DA1F46535E005CFBBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC8116DC1F46535E005CFBBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC8116DF1F46535E005CFBBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC8116E11F46535E005CFBBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC8116E41F46535E005CFBBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC8116E61F46535E005CFBBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC8116EB1F46535E005CFBBB /* locasfilmesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = locasfilmesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8116EF1F46535E005CFBBB /* locasfilmesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locasfilmesTests.swift; sourceTree = "<group>"; };
+		AC8116F11F46535E005CFBBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC8116F61F46535E005CFBBB /* locasfilmesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = locasfilmesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8116FA1F46535E005CFBBB /* locasfilmesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locasfilmesUITests.swift; sourceTree = "<group>"; };
+		AC8116FC1F46535E005CFBBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC8116D41F46535E005CFBBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8116E81F46535E005CFBBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8116F31F46535E005CFBBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC8116CE1F46535E005CFBBB = {
+			isa = PBXGroup;
+			children = (
+				AC8116D91F46535E005CFBBB /* locasfilmes */,
+				AC8116EE1F46535E005CFBBB /* locasfilmesTests */,
+				AC8116F91F46535E005CFBBB /* locasfilmesUITests */,
+				AC8116D81F46535E005CFBBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC8116D81F46535E005CFBBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC8116D71F46535E005CFBBB /* locasfilmes.app */,
+				AC8116EB1F46535E005CFBBB /* locasfilmesTests.xctest */,
+				AC8116F61F46535E005CFBBB /* locasfilmesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC8116D91F46535E005CFBBB /* locasfilmes */ = {
+			isa = PBXGroup;
+			children = (
+				AC8116DA1F46535E005CFBBB /* AppDelegate.swift */,
+				AC8116DC1F46535E005CFBBB /* ViewController.swift */,
+				AC8116DE1F46535E005CFBBB /* Main.storyboard */,
+				AC8116E11F46535E005CFBBB /* Assets.xcassets */,
+				AC8116E31F46535E005CFBBB /* LaunchScreen.storyboard */,
+				AC8116E61F46535E005CFBBB /* Info.plist */,
+			);
+			path = locasfilmes;
+			sourceTree = "<group>";
+		};
+		AC8116EE1F46535E005CFBBB /* locasfilmesTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC8116EF1F46535E005CFBBB /* locasfilmesTests.swift */,
+				AC8116F11F46535E005CFBBB /* Info.plist */,
+			);
+			path = locasfilmesTests;
+			sourceTree = "<group>";
+		};
+		AC8116F91F46535E005CFBBB /* locasfilmesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC8116FA1F46535E005CFBBB /* locasfilmesUITests.swift */,
+				AC8116FC1F46535E005CFBBB /* Info.plist */,
+			);
+			path = locasfilmesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC8116D61F46535E005CFBBB /* locasfilmes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC8116FF1F46535E005CFBBB /* Build configuration list for PBXNativeTarget "locasfilmes" */;
+			buildPhases = (
+				AC8116D31F46535E005CFBBB /* Sources */,
+				AC8116D41F46535E005CFBBB /* Frameworks */,
+				AC8116D51F46535E005CFBBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = locasfilmes;
+			productName = locasfilmes;
+			productReference = AC8116D71F46535E005CFBBB /* locasfilmes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC8116EA1F46535E005CFBBB /* locasfilmesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC8117021F46535E005CFBBB /* Build configuration list for PBXNativeTarget "locasfilmesTests" */;
+			buildPhases = (
+				AC8116E71F46535E005CFBBB /* Sources */,
+				AC8116E81F46535E005CFBBB /* Frameworks */,
+				AC8116E91F46535E005CFBBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC8116ED1F46535E005CFBBB /* PBXTargetDependency */,
+			);
+			name = locasfilmesTests;
+			productName = locasfilmesTests;
+			productReference = AC8116EB1F46535E005CFBBB /* locasfilmesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC8116F51F46535E005CFBBB /* locasfilmesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC8117051F46535E005CFBBB /* Build configuration list for PBXNativeTarget "locasfilmesUITests" */;
+			buildPhases = (
+				AC8116F21F46535E005CFBBB /* Sources */,
+				AC8116F31F46535E005CFBBB /* Frameworks */,
+				AC8116F41F46535E005CFBBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC8116F81F46535E005CFBBB /* PBXTargetDependency */,
+			);
+			name = locasfilmesUITests;
+			productName = locasfilmesUITests;
+			productReference = AC8116F61F46535E005CFBBB /* locasfilmesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC8116CF1F46535E005CFBBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Gabriel;
+				TargetAttributes = {
+					AC8116D61F46535E005CFBBB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					AC8116EA1F46535E005CFBBB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC8116D61F46535E005CFBBB;
+					};
+					AC8116F51F46535E005CFBBB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC8116D61F46535E005CFBBB;
+					};
+				};
+			};
+			buildConfigurationList = AC8116D21F46535E005CFBBB /* Build configuration list for PBXProject "locasfilmes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC8116CE1F46535E005CFBBB;
+			productRefGroup = AC8116D81F46535E005CFBBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC8116D61F46535E005CFBBB /* locasfilmes */,
+				AC8116EA1F46535E005CFBBB /* locasfilmesTests */,
+				AC8116F51F46535E005CFBBB /* locasfilmesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC8116D51F46535E005CFBBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8116E51F46535E005CFBBB /* LaunchScreen.storyboard in Resources */,
+				AC8116E21F46535E005CFBBB /* Assets.xcassets in Resources */,
+				AC8116E01F46535E005CFBBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8116E91F46535E005CFBBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8116F41F46535E005CFBBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC8116D31F46535E005CFBBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8116DD1F46535E005CFBBB /* ViewController.swift in Sources */,
+				AC8116DB1F46535E005CFBBB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8116E71F46535E005CFBBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8116F01F46535E005CFBBB /* locasfilmesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8116F21F46535E005CFBBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8116FB1F46535E005CFBBB /* locasfilmesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC8116ED1F46535E005CFBBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC8116D61F46535E005CFBBB /* locasfilmes */;
+			targetProxy = AC8116EC1F46535E005CFBBB /* PBXContainerItemProxy */;
+		};
+		AC8116F81F46535E005CFBBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC8116D61F46535E005CFBBB /* locasfilmes */;
+			targetProxy = AC8116F71F46535E005CFBBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC8116DE1F46535E005CFBBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC8116DF1F46535E005CFBBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC8116E31F46535E005CFBBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC8116E41F46535E005CFBBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC8116FD1F46535E005CFBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC8116FE1F46535E005CFBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC8117001F46535E005CFBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = locasfilmes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pluralsolutions.locasfilmes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AC8117011F46535E005CFBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = locasfilmes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pluralsolutions.locasfilmes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AC8117031F46535E005CFBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = locasfilmesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pluralsolutions.locasfilmesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/locasfilmes.app/locasfilmes";
+			};
+			name = Debug;
+		};
+		AC8117041F46535E005CFBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = locasfilmesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pluralsolutions.locasfilmesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/locasfilmes.app/locasfilmes";
+			};
+			name = Release;
+		};
+		AC8117061F46535E005CFBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = locasfilmesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pluralsolutions.locasfilmesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = locasfilmes;
+			};
+			name = Debug;
+		};
+		AC8117071F46535E005CFBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = locasfilmesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pluralsolutions.locasfilmesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = locasfilmes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC8116D21F46535E005CFBBB /* Build configuration list for PBXProject "locasfilmes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8116FD1F46535E005CFBBB /* Debug */,
+				AC8116FE1F46535E005CFBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC8116FF1F46535E005CFBBB /* Build configuration list for PBXNativeTarget "locasfilmes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8117001F46535E005CFBBB /* Debug */,
+				AC8117011F46535E005CFBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC8117021F46535E005CFBBB /* Build configuration list for PBXNativeTarget "locasfilmesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8117031F46535E005CFBBB /* Debug */,
+				AC8117041F46535E005CFBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC8117051F46535E005CFBBB /* Build configuration list for PBXNativeTarget "locasfilmesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8117061F46535E005CFBBB /* Debug */,
+				AC8117071F46535E005CFBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC8116CF1F46535E005CFBBB /* Project object */;
+}
