@@ -12,8 +12,7 @@
 		AC8116E01F46535E005CFBBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC8116DE1F46535E005CFBBB /* Main.storyboard */; };
 		AC8116E21F46535E005CFBBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8116E11F46535E005CFBBB /* Assets.xcassets */; };
 		AC8116E51F46535E005CFBBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC8116E31F46535E005CFBBB /* LaunchScreen.storyboard */; };
-		AC8116F01F46535E005CFBBB /* locasfilmesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8116EF1F46535E005CFBBB /* locasfilmesTests.swift */; };
-		AC8116FB1F46535E005CFBBB /* locasfilmesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8116FA1F46535E005CFBBB /* locasfilmesUITests.swift */; };
+		AC8117091F4654E4005CFBBB /* LocasFilmesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8117081F4654E4005CFBBB /* LocasFilmesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +41,8 @@
 		AC8116E41F46535E005CFBBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC8116E61F46535E005CFBBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC8116EB1F46535E005CFBBB /* locasfilmesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = locasfilmesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC8116EF1F46535E005CFBBB /* locasfilmesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locasfilmesTests.swift; sourceTree = "<group>"; };
-		AC8116F11F46535E005CFBBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC8116F61F46535E005CFBBB /* locasfilmesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = locasfilmesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC8116FA1F46535E005CFBBB /* locasfilmesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locasfilmesUITests.swift; sourceTree = "<group>"; };
-		AC8116FC1F46535E005CFBBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC8117081F4654E4005CFBBB /* LocasFilmesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocasFilmesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				AC8116D91F46535E005CFBBB /* locasfilmes */,
-				AC8116EE1F46535E005CFBBB /* locasfilmesTests */,
-				AC8116F91F46535E005CFBBB /* locasfilmesUITests */,
 				AC8116D81F46535E005CFBBB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,29 +94,12 @@
 				AC8116DA1F46535E005CFBBB /* AppDelegate.swift */,
 				AC8116DC1F46535E005CFBBB /* ViewController.swift */,
 				AC8116DE1F46535E005CFBBB /* Main.storyboard */,
+				AC8117081F4654E4005CFBBB /* LocasFilmesTableViewController.swift */,
 				AC8116E11F46535E005CFBBB /* Assets.xcassets */,
 				AC8116E31F46535E005CFBBB /* LaunchScreen.storyboard */,
 				AC8116E61F46535E005CFBBB /* Info.plist */,
 			);
 			path = locasfilmes;
-			sourceTree = "<group>";
-		};
-		AC8116EE1F46535E005CFBBB /* locasfilmesTests */ = {
-			isa = PBXGroup;
-			children = (
-				AC8116EF1F46535E005CFBBB /* locasfilmesTests.swift */,
-				AC8116F11F46535E005CFBBB /* Info.plist */,
-			);
-			path = locasfilmesTests;
-			sourceTree = "<group>";
-		};
-		AC8116F91F46535E005CFBBB /* locasfilmesUITests */ = {
-			isa = PBXGroup;
-			children = (
-				AC8116FA1F46535E005CFBBB /* locasfilmesUITests.swift */,
-				AC8116FC1F46535E005CFBBB /* Info.plist */,
-			);
-			path = locasfilmesUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +238,7 @@
 			files = (
 				AC8116DD1F46535E005CFBBB /* ViewController.swift in Sources */,
 				AC8116DB1F46535E005CFBBB /* AppDelegate.swift in Sources */,
+				AC8117091F4654E4005CFBBB /* LocasFilmesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC8116F01F46535E005CFBBB /* locasfilmesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC8116FB1F46535E005CFBBB /* locasfilmesUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
