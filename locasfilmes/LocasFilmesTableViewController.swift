@@ -92,14 +92,22 @@ class LocasFilmesTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        if(segue.identifier == "segLoocasFilmesDetail"){
+            let vc = segue.destination as! ViewController
+            let pos = tableView.indexPathForSelectedRow?.row
+            vc.textoDoFilme = filme_nomes[pos!]
+            vc.textoDoAno = "\(filme_anos[pos!])"
+            vc.imagem = filme_imgs[pos!]
+        }
+        
     }
-    */
+ 
 
 }

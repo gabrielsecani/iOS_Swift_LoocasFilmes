@@ -10,9 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var lblFilme: UILabel!
+    @IBOutlet weak var lblAno: UILabel!
+    @IBOutlet weak var img: UIImageView!
+    
+    var textoDoFilme: String = ""
+    var textoDoAno: String = ""
+    var imagem: UIImage?;
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        lblAno.text = textoDoAno
+        lblFilme.text = textoDoFilme
+        img.image = imagem
     }
 
     override func didReceiveMemoryWarning() {
